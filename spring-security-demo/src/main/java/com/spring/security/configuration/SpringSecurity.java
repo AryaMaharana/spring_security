@@ -1,6 +1,5 @@
 package com.spring.security.configuration;
 
-import com.spring.security.services.LoginService;
 import com.spring.security.services.UserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
