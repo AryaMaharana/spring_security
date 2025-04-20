@@ -1,4 +1,4 @@
-package com.spring.security.controller.user;
+package com.spring.security.controller.registeruser;
 
 import com.spring.security.model.CreateUserRequest;
 import com.spring.security.services.UserServiceForCrudOperation;
@@ -12,14 +12,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/user")
-public class UsersController {
+public class RegisterUsersController {
 
 
     private final UserServiceForCrudOperation userServiceForCrudOperation;
 
     private final AuthenticationManager authenticationManager;
 
-    public UsersController(UserServiceForCrudOperation userServiceForCrudOperation, AuthenticationManager authenticationManager) {
+    public RegisterUsersController(UserServiceForCrudOperation userServiceForCrudOperation, AuthenticationManager authenticationManager) {
         this.userServiceForCrudOperation = userServiceForCrudOperation;
         this.authenticationManager = authenticationManager;
     }
